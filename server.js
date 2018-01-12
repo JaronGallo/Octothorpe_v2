@@ -14,14 +14,26 @@ app.use(routes);
 // Set up promises with mongoose
 mongoose.Promise = global.Promise;
 // Connect to the Mongo DB
-mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/panoptoVideos",
-  {
-    useMongoClient: true
-  }
-);
+
+if (process.env.MONGODB_URI){
+	mongoose.connect(process.env.MONGODB_URI);
+} else {
+	mongoose.connect('mongodb://localhost/panoptoVideos');
+}
+
+// mongoose.connect(
+//   process.env.MONGODB_URI || "mongodb://localhost/panoptoVideos",
+//   {
+//     useMongoClient: true
+//   }
+// );
 
 var db = mongoose.connection;
+
+db.on("error", function(err) {
+	console.log("mongoose err ", err );
+});
+
 db.once("open", function() {
 	console.log('mongoose is connected');
 });
