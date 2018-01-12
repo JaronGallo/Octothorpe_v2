@@ -20,6 +20,11 @@ mongoose.connect(
     useMongoClient: true
   }
 );
+
+var db = mongoose.connection;
+db.once("open", function() {
+	console.log('mongoose is connected');
+});
 // Start the API server
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
