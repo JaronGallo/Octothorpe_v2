@@ -6,7 +6,7 @@
   "scripts": {
     "server": "node server.js",
     "client": "node scripts/start-client.js",
-    "start": "yarn seed && concurrently \"nodemon server.js\" \"npm run client\"",
+    "start": "yarn seed && concurrently \"nodemon server.js\" \"yarn run client\"",
     "build": "node scripts/build.js",
     "seed": "node scripts/seedVideos.js",
     "test": "echo \"Error: no test specified\" && exit 1",
