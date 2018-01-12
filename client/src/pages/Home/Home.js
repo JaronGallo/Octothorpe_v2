@@ -68,14 +68,16 @@ this.setState({redirectToReferrerF:true});
         <div className="row">
             <div className="jumbotron logoTron">
                 
-                <h1 className="display-3 text-center" style={{marginTop: '375px'}}>Octothorpe! #</h1>
+                {/*<h1 className="display-3 text-center" style={{marginTop: '375px'}}>Octothorpe! #</h1>*/}
+                <h1 className="display-3 text-center" style={{marginTop: '300px'}}><img src="./octothorpeAsset-2.png" style={{width: '300px', boxShadow: '6px 6px 13px black', borderRadius: '300px' }}/></h1>
             </div>
             <div className="jumbotron loginJumbo">
                 
                <div className="pull-right col-md-8">
                
-                <p className="lead" id="explanation-paragraph" style={{position: 'relative', zIndex: 20, paddingTop: '300px'}}>Everyone using our app will get a clean recap of the bootcamp where you can add notes and watch cut down pre-recorded class videos!</p>
-               
+                <p className="lead" id="explanation-paragraph" style={{position: 'relative', zIndex: 20, paddingTop: '300px'}}>Everyone using our app will get a clean recap of the bootcamp
+                <br /> where you can add notes and watch cut down pre-recorded <br />class videos!</p>
+               <br />
                 <p>Login now to view more.</p>
                 <p className="lead" style={{position: 'relative', zIndex: 19}}>
                     <button type="button" className="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Login</button>
@@ -84,7 +86,7 @@ this.setState({redirectToReferrerF:true});
                 
             </div>
            
-            <div className="modal fade" id="myModal" role="dialog">
+            <div className="modal fade" id="myModal" role="dialog" >
                 <div className="modal-dialog">
                     
                
