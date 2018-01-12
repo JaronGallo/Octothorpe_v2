@@ -1,0 +1,36 @@
+.video-holder {
+    margin: 20px 0% 5% 7.5%;
+}
+
+.video-card {
+    padding: 0px 15px 0px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.card-title {
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.description-holder {
+	padding-top: 0px;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+}
+
+.note-box {
+    border-radius: 4px;
+    overflow: auto;
+}
+
+.video-border {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    width: 85%;
+    height: 480px;
+    align-self: center;
+}

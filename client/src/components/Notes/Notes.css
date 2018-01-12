@@ -1,0 +1,42 @@
+.note-box {
+    border-radius: 8px;
+    font-size: 15pt;
+    width: 95%;
+    padding: 2.5%, 5%, 2.5%, 5%;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.remove-btn {
+    color: white;
+    float: right;
+    font-size: 10pt;
+    background-color: rgb(85, 85, 85);
+    border-radius: 0px 8px;
+    border: none;
+}
+
+.submit-btn {
+    color: white;
+    font-size: 10pt;
+    background-color: rgb(85, 85, 85);
+    border: none;
+}
+
+.submit-btn:hover{
+    color: white;
+    background-color: rgb(100, 100, 100);
+}
+
+.remove-btn:hover{
+    color: white;
+    background-color: rgb(100, 100, 100);
+}
+
+.remove-btn:active{
+    color: white;
+    background-color: rgb(100, 100, 100);
+}

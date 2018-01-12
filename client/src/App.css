@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.list-overflow-container{
+  max-height: 607px;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 160px;
+}
+
+.App-logo2 {
+  margin: 5% auto;
+}
+
+.logo-box {
+  width: 160px;
+  margin: 0 auto;
+  margin-right: -5%;
+  position: relative;
+}
+
+.App-header {
+  background-color: #222;
+  margin: 0px -20px 0px -20px;
+  height: 220px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.white {
+  font-size: 15pt;
+}
+
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 75%;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.video-details .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.list-group-item {
+  cursor: pointer;
+  margin: 0% 7.5% 0% 7.5%;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
+
+.video-holder {
+  margin: 69px 0% 5% 0%;
+}
+
+.video-card {
+  padding: 0px 15px 0px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.card-title {
+  font-weight: bolder;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.description-holder {
+padding-top: 0px;
+  border: 1px solid #ddd;
+  border-radius: 0px;
+}
+
+.note-box {
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.video-border {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  width: 85%;
+  height: 480px;
+  align-self: center;
+}
+
+
+.note-box {
+  border-radius: 8px;
+  font-size: 10pt;
+  width: 95%;
+  padding: 2.5%, 5%, 2.5%, 5%;
+  background-color: rgb(233, 233, 233);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.remove-btn {
+  color: white;
+  float: right;
+  font-size: 10pt;
+  background-color: rgb(85, 85, 85);
+  border-radius: 0px 8px;
+  border: none;
+}
+
+.submit-btn {
+  color: white;
+  font-size: 10pt;
+  background-color: rgb(85, 85, 85);
+  border: none;
+}
+
+.submit-btn:hover{
+  color: white;
+  background-color: rgb(100, 100, 100);
+}
+
+.remove-btn:hover{
+  color: white;
+  background-color: rgb(100, 100, 100);
+}
+
+.remove-btn:active{
+  color: white;
+  background-color: rgb(100, 100, 100);
+}

@@ -1,0 +1,36 @@
+{
+  "name": "reactrouter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
+    "start": "npm seed && concurrently \"nodemon server.js\" \"npm run client\"",
+    "build": "node scripts/build.js",
+    "seed": "node scripts/seedVideos.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installDeps": "yarn && cd client && yarn"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mongoose": "^4.11.7",
+    "mongoose-findorcreate": "^2.0.0",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "react-facebook-login": "^3.7.2",
+    "react-google-login": "^3.0.4",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
