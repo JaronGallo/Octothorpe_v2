@@ -4,9 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "server": "node server.js",
+    "start": "node server.js",
     "client": "node scripts/start-client.js",
-    "start": "yarn seed && concurrently \"nodemon server.js\" \"yarn run client\"",
+    "server": "yarn seed && concurrently \"nodemon server.js\" \"yarn run client\"",
     "build": "node scripts/build.js",
     "seed": "node scripts/seedVideos.js",
     "test": "echo \"Error: no test specified\" && exit 1",
